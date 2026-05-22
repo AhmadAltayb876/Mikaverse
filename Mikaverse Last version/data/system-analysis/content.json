@@ -1,0 +1,134 @@
+{
+  "page": {
+    "title": "تحليل أنظمة ميكاترونية | Mikaverse",
+    "heading": "تحليل",
+    "headingAccent": "الأنظمة",
+    "lead": "دراسات تحليلية لأنظمة ميكاترونية متكاملة — تصفّح حسب المحور وافتح كل دراسة للتفاصيل.",
+    "sectionId": "printing-projects",
+    "metaDescription": "تحليل أنظمة Mikaverse: ميكانيك، تحكم، وتكامل برمجي مع توصيات قابلة للتنفيذ.",
+    "backLinkLabel": "العودة لتحليل الأنظمة",
+    "filtersLabel": "تصفية حسب المحور"
+  },
+  "sectionTemplate": [
+    { "id": "overview", "subtitle": "نظرة عامة" },
+    { "id": "challenge", "subtitle": "التحدي" },
+    { "id": "solution", "subtitle": "الحل المقدم" },
+    { "id": "technologies", "subtitle": "التقنيات المستخدمة" },
+    { "id": "results", "subtitle": "النتائج والفوائد" }
+  ],
+  "filters": [
+    { "id": "mechanical", "label": "ميكانيك وحركة" },
+    { "id": "control", "label": "تحكم وكهرباء" },
+    { "id": "integration", "label": "تكامل وبرمجيات" }
+  ],
+  "cards": [
+    {
+      "slug": "vibration-root-cause",
+      "filter": "mechanical",
+      "title": "تحليل اهتزاز خط إنتاج: من القياس إلى توصية توازن",
+      "image": "../img/CNCIcon.png",
+      "tag": "Mechanical",
+      "detail": {
+        "metaDescription": "تحليل اهتزاز خط إنتاج — Mikaverse.",
+        "lead": "تشخيص ترددات وتوصية صيانة وقائية.",
+        "sections": {
+          "overview": "دراسة لخط تعبئة يعاني اهتزازاً عند سرعة 80٪ من الاسمية.",
+          "challenge": "توقفات غير مجدولة دون سجل اهتزاز تاريخي.",
+          "solution": "تركيب مقاييس وتقرير FFT مع خريطة حرارة للمحامل.",
+          "technologies": "مستشعرات IEPE، MATLAB، موازنة ديناميكية.",
+          "results": "انخفاض الاهتزاز 35٪ بعد موازنة ومحاذاة بكرتين."
+        }
+      }
+    },
+    {
+      "slug": "gantry-stiffness-study",
+      "filter": "mechanical",
+      "title": "دراسة صلابة بوابة CNC ثلاثية المحاور قبل التوسعة",
+      "image": "../img/3D-Projects.png",
+      "tag": "Mechanical",
+      "detail": {
+        "metaDescription": "دراسة صلابة Gantry — تحليل أنظمة Mikaverse.",
+        "lead": "محاكاة FEA واختبار انحراف تحت حمل قطع.",
+        "sections": {
+          "overview": "عميل يريد توسيع مساحة العمل دون فقدان الدقة.",
+          "challenge": "اهتزاز طرفي عند تسريع عالي على المحور Y.",
+          "solution": "مقارنة مقاطع إطار وتقوية محلية مع تكلفة تقديرية.",
+          "technologies": "Fusion Simulation، قياس LVDT، G-code اختبار.",
+          "results": "توصية بمقطع واحد يقلل الانحراف 22٪ ضمن الميزانية."
+        }
+      }
+    },
+    {
+      "slug": "servo-tuning-audit",
+      "filter": "control",
+      "title": "تدقيق ضبط سيرفو خط تعبئة: استقرار وسلامة",
+      "image": "../img/IT-Projects.png",
+      "tag": "Control",
+      "detail": {
+        "metaDescription": "تدقيق سيرفو — تحليل أنظمة Mikaverse.",
+        "lead": "مراجعة معاملات وحدود عزم وتسارع.",
+        "sections": {
+          "overview": "تحليل لمحورين رئيسيين يظهران overshoot عند التوقف.",
+          "challenge": "تعديلات يدوية متضاربة بين الورديات.",
+          "solution": "بروتوكول ضبط موحّد ووثائق نسخ احتياطي للمعاملات.",
+          "technologies": "Servo drives، oscilloscope، Scope traces.",
+          "results": "زمن تثبيت أقل 18٪ مع الحفاظ على حدود السلامة."
+        }
+      }
+    },
+    {
+      "slug": "power-quality-line",
+      "filter": "control",
+      "title": "تحليل جودة طاقة ومحولات في خط يحتوي محركات كبيرة",
+      "image": "../img/DIY-Projects.png",
+      "tag": "Control",
+      "detail": {
+        "metaDescription": "جودة طاقة خط إنتاج — Mikaverse.",
+        "lead": "قياس ارتطابات وتوصية فلترة.",
+        "sections": {
+          "overview": "انقطاعات حساسات PLC تزامنت مع تشغيل مكبس هيدروليكي.",
+          "challenge": "هبوط جهد لحظي دون سجل مركزي.",
+          "solution": "رسم خريطة أحمال واقتراح PFC ومفصلات زمنية.",
+          "technologies": "محلل طاقة ثلاثي الطور، PLC logging.",
+          "results": "انخفاض أعطال I/O العشوائية بعد تركيب فلتر وإعادة توزيع الأحمال."
+        }
+      }
+    },
+    {
+      "slug": "mes-readiness",
+      "filter": "integration",
+      "title": "جاهزية MES لورشة متوسطة: فجوات البيانات والبنية",
+      "image": "../img/IT-Projects.png",
+      "tag": "Integration",
+      "detail": {
+        "metaDescription": "تحليل جاهزية MES — Mikaverse.",
+        "lead": "خارطة طريق من Excel إلى تتبع أوامر العمل.",
+        "sections": {
+          "overview": "تقييم نضج البيانات بين CNC والمستودع والجودة.",
+          "challenge": "جداول متفرقة ولا APIs موحدة.",
+          "solution": "طبقة edge تجمع CSV وModbus ثم تصدير MQTT.",
+          "technologies": "Node-RED، PostgreSQL، لوحة Grafana.",
+          "results": "نموذج أولي يعمل خلال 6 أسابيع يغطي 70٪ من أوامر العمل."
+        }
+      }
+    },
+    {
+      "slug": "digital-twin-pilot",
+      "filter": "integration",
+      "title": "تجربة توأم رقمي مبسّط لخلية تجميع قبل الاستثمار الكامل",
+      "image": "../img/Figures&3Dprinted.png",
+      "tag": "Integration",
+      "detail": {
+        "metaDescription": "توأم رقمي تجريبي — تحليل أنظمة Mikaverse.",
+        "lead": "محاكاة زمن الدورة واختبار سيناريوهات العطل.",
+        "sections": {
+          "overview": "نمذجة خلية بسيطة بثلاث محطات وربطها ببيانات حقيقية جزئية.",
+          "challenge": "شك الإدارة في جدوى التوأم الرقمي بتكلفة عالية.",
+          "solution": "نموذج 2D/3D خفيف مع مدخلات من حساسات موجودة.",
+          "technologies": "AnyLogic/Unity lite، Python، MQTT.",
+          "results": "تحديد عنق زجاجة واحد وفّر 12٪ من زمن الدورة في التجربة الفعلية."
+        }
+      }
+    }
+  ]
+}

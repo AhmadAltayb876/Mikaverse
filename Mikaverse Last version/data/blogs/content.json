@@ -1,0 +1,134 @@
+{
+  "page": {
+    "title": "المدونة | Mikaverse",
+    "heading": "مقالات",
+    "headingAccent": "ميكاترونية",
+    "lead": "مقالات وشروحات من فريق Mikaverse — تصفّح حسب التصنيف وافتح كل مقال للقراءة الكاملة.",
+    "sectionId": "electronics-projects",
+    "metaDescription": "مدونة Mikaverse: دروس، دراسات حالة، وأخبار تقنية في الميكاترونيات.",
+    "backLinkLabel": "العودة للمدونة",
+    "filtersLabel": "تصفية حسب التصنيف"
+  },
+  "sectionTemplate": [
+    { "id": "overview", "subtitle": "نظرة عامة" },
+    { "id": "challenge", "subtitle": "التحدي" },
+    { "id": "solution", "subtitle": "الحل المقدم" },
+    { "id": "technologies", "subtitle": "التقنيات المستخدمة" },
+    { "id": "results", "subtitle": "النتائج والفوائد" }
+  ],
+  "filters": [
+    { "id": "tutorials", "label": "دروس وشروحات" },
+    { "id": "cases", "label": "دراسات حالة" },
+    { "id": "news", "label": "أخبار وتوجهات" }
+  ],
+  "cards": [
+    {
+      "slug": "pid-for-beginners",
+      "filter": "tutorials",
+      "title": "شرح مبسّط لضبط PID في أنظمة السيرفو والحركة",
+      "image": "../img/IT-Projects.png",
+      "tag": "Tutorial",
+      "detail": {
+        "metaDescription": "شرح PID للمبتدئين — مدونة Mikaverse.",
+        "lead": "من الصفر إلى تجربة عملية على محاكي بسيط.",
+        "sections": {
+          "overview": "مقال يشرح P و I و D بأمثلة حركة خطية دون معادلات ثقيلة.",
+          "challenge": "كثير من الهواة ينسخون قيماً جاهزة دون فهم الاستقرار.",
+          "solution": "جدول تجارب منظمة مع رسوم تفاعلية للخطأ عبر الزمن.",
+          "technologies": "MATLAB Online، Arduino، ومخططات SVG.",
+          "results": "أكثر من 200 تحميل للملف التجريبي المرفق في أول أسبوع."
+        }
+      }
+    },
+    {
+      "slug": "fusion-to-gcode",
+      "filter": "tutorials",
+      "title": "من Fusion 360 إلى G-code: مسار عمل آمن للمبتدئين",
+      "image": "../img/CNCIcon.png",
+      "tag": "Tutorial",
+      "detail": {
+        "metaDescription": "مسار Fusion إلى G-code — مدونة Mikaverse.",
+        "lead": "قائمة تحقق قبل أول تشغيل على CNC.",
+        "sections": {
+          "overview": "دليل مصور لإعداد التوضيح، اختيار الأداة، ومحاكاة المسار.",
+          "challenge": "أخطاء Z0 تسبب احتكاك أو كسر أدوات.",
+          "solution": "قالب Post مخصص مع تعليقات عربية في ملف G-code.",
+          "technologies": "Fusion CAM، LinuxCNC، مادة AL6061 للتجارب.",
+          "results": "تقليل حوادث التصادم في ورشة التدريب الداخلية إلى صفر خلال شهر."
+        }
+      }
+    },
+    {
+      "slug": "startup-factory-iot",
+      "filter": "cases",
+      "title": "كيف ربطنا ورشة ناشئة بلوحة IoT دون استبدال الآلات القديمة",
+      "image": "../img/IT-Projects.png",
+      "tag": "Case Study",
+      "detail": {
+        "metaDescription": "دراسة حالة IoT لورشة ناشئة — Mikaverse.",
+        "lead": "مراقبة الاهتزاز والطاقة بميزانية محدودة.",
+        "sections": {
+          "overview": "قصة عميل ناشئ يحتاج بيانات قبل شراء خط جديد.",
+          "challenge": "آلات بدون منافذ اتصال حديثة.",
+          "solution": "حساسات خارجية ومزامنة يدوية مع جداول Excel.",
+          "technologies": "ESP32، Grafana Cloud مجاني، واتساب Business API.",
+          "results": "قرار استثمار مبني على بيانات 45 يوماً بدلاً من التخمين."
+        }
+      }
+    },
+    {
+      "slug": "school-lab-automation",
+      "filter": "cases",
+      "title": "أتمتة مختبر مدرسي: من الفكرة إلى تشغيل آمن للطلاب",
+      "image": "../img/DIY-Projects.png",
+      "tag": "Case Study",
+      "detail": {
+        "metaDescription": "أتمتة مختبر مدرسي — مدونة Mikaverse.",
+        "lead": "تجربة تعليمية مع حواجز أمان واضحة.",
+        "sections": {
+          "overview": "مشروع بالتعاون مع مدرسة ثانوية لمحطة تجارب PLC.",
+          "challenge": "تنوع مستويات الطلاب ومخاطر التوصيل الخاطئ.",
+          "solution": "لوحة تجارب مغلقة مع مفاتيح طوارئ وتمارين متدرجة.",
+          "technologies": "PLC تعليمي، HMI، دليل معلم PDF.",
+          "results": "80 طالباً أكملوا التمرين الأساسي دون حوادث."
+        }
+      }
+    },
+    {
+      "slug": "open-source-cam-2026",
+      "filter": "news",
+      "title": "أدوات CAM مفتوحة المصدر: ما الذي تغيّر في 2026؟",
+      "image": "../img/3D-Projects.png",
+      "tag": "News",
+      "detail": {
+        "metaDescription": "أخبار CAM مفتوحة المصدر — مدونة Mikaverse.",
+        "lead": "مقارنة سريعة بين أشهر المشاريع الجديدة.",
+        "sections": {
+          "overview": "جولة في التحديثات التي تهم ورش CNC الصغيرة.",
+          "challenge": "تشتت المستخدمين بين إصدارات غير مستقرة.",
+          "solution": "جدول توافق مع أنظمة التحكم الشائعة في المنطقة.",
+          "technologies": "FreeCAD Path، Kiri:Moto، وبناءات Docker.",
+          "results": "قائمة مختصرة بثلاثة خيارات موصى بها للهواة والشركات الصغيرة."
+        }
+      }
+    },
+    {
+      "slug": "edge-ai-trends",
+      "filter": "news",
+      "title": "ذكاء اصطناعي على الحافة للمصانع الصغيرة: واقع أم تسويق؟",
+      "image": "../img/Figures&3Dprinted.png",
+      "tag": "News",
+      "detail": {
+        "metaDescription": "اتجاهات Edge AI — مدونة Mikaverse.",
+        "lead": "نظرة نقدية مع أمثلة تكلفة حقيقية.",
+        "sections": {
+          "overview": "تلخيص معرض تقني محلي وما طرحه الموردون.",
+          "challenge": "وعود كشف العيوب دون بيانات تدريب كافية.",
+          "solution": "إطار تقييم بسيط: البيانات، الكاميرا، والصيانة.",
+          "technologies": "NPU embedded، TensorFlow Lite، كاميرas صناعية.",
+          "results": "توصية بعدم الشراء قبل تجربة 30 يوماً على خط واحد."
+        }
+      }
+    }
+  ]
+}

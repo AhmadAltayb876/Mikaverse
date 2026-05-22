@@ -1,0 +1,134 @@
+{
+  "page": {
+    "title": "موديولات وشروحات | Mikaverse",
+    "heading": "موديولات",
+    "headingAccent": "وشروحات",
+    "lead": "وحدات تعليمية جاهزة للتجميع والبرمجة — تصفّح حسب النوع وافتح كل موديول للتفاصيل.",
+    "sectionId": "cnc-projects",
+    "metaDescription": "موديولات Mikaverse: Arduino، PLC، وحساسات مع دليل تجميع وبرمجة.",
+    "backLinkLabel": "العودة للموديولات",
+    "filtersLabel": "تصفية حسب النوع"
+  },
+  "sectionTemplate": [
+    { "id": "overview", "subtitle": "نظرة عامة" },
+    { "id": "challenge", "subtitle": "التحدي" },
+    { "id": "solution", "subtitle": "الحل المقدم" },
+    { "id": "technologies", "subtitle": "التقنيات المستخدمة" },
+    { "id": "results", "subtitle": "النتائج والفوائد" }
+  ],
+  "filters": [
+    { "id": "arduino", "label": "Arduino و ESP" },
+    { "id": "plc", "label": "PLC و HMI" },
+    { "id": "sensors", "label": "حساسات ومشغلات" }
+  ],
+  "cards": [
+    {
+      "slug": "esp32-io-shield",
+      "filter": "arduino",
+      "title": "درع ESP32 موحّد للمختبر مع حماية دخول/خرج",
+      "image": "../img/IT-Projects.png",
+      "tag": "Arduino",
+      "detail": {
+        "metaDescription": "درع ESP32 تعليمي — موديول Mikaverse.",
+        "lead": "لوحة تجارب آمنة للطلاب والهواة.",
+        "sections": {
+          "overview": "موديول يجمع ترانسistors حماية، مرحل، ومنافذ I2C على لوحة واحدة.",
+          "challenge": "حرق GPIO بسبب توصيل خاطئ متكرر.",
+          "solution": "فيوزات قابلة للاستبدال ومؤشرات LED لكل قناة.",
+          "technologies": "ESP32-WROOM، KiCad، دليل تجميع PDF.",
+          "results": "صفر حرق GPIO خلال 12 جلسة تدريب متتالية."
+        }
+      }
+    },
+    {
+      "slug": "stepper-driver-lab",
+      "filter": "arduino",
+      "title": "مختبر تحكم بمحرك خطوي مع TMC2209 وواجهة Serial",
+      "image": "../img/CNCIcon.png",
+      "tag": "Arduino",
+      "detail": {
+        "metaDescription": "مختبر محرك خطوي — موديول Mikaverse.",
+        "lead": "تعلم Microstepping ومعايرة التيار.",
+        "sections": {
+          "overview": "موديول يعرض موجات التيار ويسمح بتغيير الخطوة من الكمبيوتر.",
+          "challenge": "صعوبة فهم فقدان الخطوة للمبتدئين.",
+          "solution": "وضع تشخيص يطبع StallGuard ودرجة الحرارة.",
+          "technologies": "Arduino، TMC2209، محرك NEMA17.",
+          "results": "الطلاب يضبطون محركاً بثبات خلال 90 دقيقة عملية."
+        }
+      }
+    },
+    {
+      "slug": "plc-starter-station",
+      "filter": "plc",
+      "title": "محطة PLC مبتدئة: حزمة تمارين من المنطق إلى SCADA",
+      "image": "../img/IT-Projects.png",
+      "tag": "PLC",
+      "detail": {
+        "metaDescription": "محطة PLC تعليمية — Mikaverse.",
+        "lead": "من Ladder إلى شاشة HMI في مسار واحد.",
+        "sections": {
+          "overview": "موديول يضم PLC صغير، مصابيح، ومفاتيح مع 8 تمارين متدرجة.",
+          "challenge": "انتقال مفاجئ من محاكي إلى عتاد حقيقي.",
+          "solution": "تمارين متطابقة بين المحاكي واللوحة الفعلية.",
+          "technologies": "Siemens LOGO، HMI Basic، WinCC optional.",
+          "results": "إكمال 6/8 تمارين من قبل 95٪ من المتدربين."
+        }
+      }
+    },
+    {
+      "slug": "conveyor-sim-module",
+      "filter": "plc",
+      "title": "محاكي سير ناقل مصغّر لاختبار منطق التشغيل والتوقف",
+      "image": "../img/DIY-Projects.png",
+      "tag": "PLC",
+      "detail": {
+        "metaDescription": "محاكي سير PLC — موديول Mikaverse.",
+        "lead": "حساسات وقفة، عدّ، وتأخير زمني واقعي.",
+        "sections": {
+          "overview": "سير بلاستيكي مع 3 حساسات وصندوق تغذية بسيط.",
+          "challenge": "صعوبة شرح التزامن دون خط حقيقي.",
+          "solution": "أزرار حقن عطل لمحاكاة انحشار وتأخير.",
+          "technologies": "PLC، حساسات كهروضوئية، عدادات.",
+          "results": "فهم حالات الخط الثلاث (تشغيل/توقف/عطل) في جلسة واحدة."
+        }
+      }
+    },
+    {
+      "slug": "load-cell-kit",
+      "filter": "sensors",
+      "title": "عدة خلية تحميل مع معايرة برمجية وعرض وزن لحظي",
+      "image": "../img/Figures&3Dprinted.png",
+      "tag": "Sensors",
+      "detail": {
+        "metaDescription": "عدة Load Cell — موديول Mikaverse.",
+        "lead": "من التوصيل إلى قراءة مستقرة في ساعة.",
+        "sections": {
+          "overview": "موديول يشرح التوصيل الرباعي والمعايرة بأوزان معيارية.",
+          "challenge": "ضوضاء القراءة عند الاهتزاز.",
+          "solution": "فلترة برمجية ومتوسط متحرك قابل للضبط.",
+          "technologies": "HX711، Arduino، هيكل 3D للتثبيت.",
+          "results": "دقة ±2 غرام في نطاق 0–5 كغم بعد المعايرة."
+        }
+      }
+    },
+    {
+      "slug": "ultrasonic-level-module",
+      "filter": "sensors",
+      "title": "موديول مستوى سائل بالموجات فوق الصوتية مع تنبيهات",
+      "image": "../img/3D-Projects.png",
+      "tag": "Sensors",
+      "detail": {
+        "metaDescription": "مستوى سائل بالموجات — موديول Mikaverse.",
+        "lead": "مناسب للخزانات الصغيرة والتجارب المختبرية.",
+        "sections": {
+          "overview": "حساس HC-SR04 مع تصحيح درجة الحرارة وواجهة Serial.",
+          "challenge": "قراءات متقطعة بسبب رغوة السطح.",
+          "solution": "متوسط وسيط وعتبة هستيريسيس.",
+          "technologies": "Arduino، حساس فوق صوتي، شاشة LCD.",
+          "results": "تنبيه قبل نفاد خزان 20 لتراً بـ 15 دقيقة في اختبار ميداني."
+        }
+      }
+    }
+  ]
+}

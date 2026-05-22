@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المدونة | Mikaverse</title>
+    <link rel="icon" type="image/png" href="../img/My-logo-final-deletedBack.png">
+    <meta name="description" content="مدونة Mikaverse: دروس، دراسات حالة، وأخبار تقنية في الميكاترونيات.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Orbitron:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="companies-projects-page">
+    <div class="site-bg" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="auto" class="bg-video">
+            <source src="../assets/videos/background.mp4" type="video/mp4">
+        </video>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="noise-overlay"></div>
+    </div>
+    <header class="glass-header" id="header">
+        <div class="container header-container">
+            <a class="logo-section" href="index.html#home" aria-label="Mikaverse Home">
+                <img src="../img/My-logo-final-deletedBack.png" alt="Mikaverse Logo" class="logo-img"
+                    onerror="this.style.display='none';">
+                <h1 class="logo-text">MIKAVERSE</h1>
+            </a>
+            <div id="nav-placeholder"></div>
+            <a class="primary-btn glow-btn desktop-only" href="https://wa.me/963939327169" target="_blank">تواصل
+                معنا</a>
+            <button class="mobile-toggle" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <main style="flex: 1; display: flex; flex-direction: column;">
+        <section id="electronics-projects" class="section-padding companies-hero">
+            <div class="head-container">
+                <div class="section-header reveal">
+                    <h1 class="section-title">مقالات <span class="gradient-text">ميكاترونية</span></h1>
+                    <p class="section-lead">مقالات وشروحات من فريق Mikaverse — تصفّح حسب التصنيف وافتح كل مقال للقراءة الكاملة.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding companies-filters-section" aria-label="تصفية المحتوى">
+            <div class="container">
+                <div class="companies-filters-wrap reveal">
+                    <p class="companies-filters-label">تصفية حسب التصنيف</p>
+                    <div class="filter-group companies-filter-group" role="group" aria-label="فلاتر المحتوى"
+                        data-companies-filters>
+                        <!-- GENERATED-FILTERS-START -->
+                        <button type="button" class="filter-btn active" data-filter="tutorials" aria-pressed="true">دروس وشروحات</button>
+                        <button type="button" class="filter-btn" data-filter="cases" aria-pressed="false">دراسات حالة</button>
+                        <button type="button" class="filter-btn" data-filter="news" aria-pressed="false">أخبار وتوجهات</button>
+                        <!-- GENERATED-FILTERS-END -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding companies-cards-section" aria-label="قائمة البطاقات">
+            <div class="container">
+                <div class="company-project-grid" data-companies-cards>
+                    <!-- GENERATED-CARDS-START -->
+                    <a href="blogs/pid-for-beginners.html" class="company-project-card reveal" data-filter="tutorials">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/IT-Projects.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">Tutorial</span>
+                                <h3>شرح مبسّط لضبط PID في أنظمة السيرفو والحركة</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="blogs/fusion-to-gcode.html" class="company-project-card reveal" data-filter="tutorials">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/CNCIcon.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">Tutorial</span>
+                                <h3>من Fusion 360 إلى G-code: مسار عمل آمن للمبتدئين</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="blogs/startup-factory-iot.html" class="company-project-card reveal" data-filter="cases" style="display: none;">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/IT-Projects.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">Case Study</span>
+                                <h3>كيف ربطنا ورشة ناشئة بلوحة IoT دون استبدال الآلات القديمة</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="blogs/school-lab-automation.html" class="company-project-card reveal" data-filter="cases" style="display: none;">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/DIY-Projects.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">Case Study</span>
+                                <h3>أتمتة مختبر مدرسي: من الفكرة إلى تشغيل آمن للطلاب</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="blogs/open-source-cam-2026.html" class="company-project-card reveal" data-filter="news" style="display: none;">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/3D-Projects.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">News</span>
+                                <h3>أدوات CAM مفتوحة المصدر: ما الذي تغيّر في 2026؟</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="blogs/edge-ai-trends.html" class="company-project-card reveal" data-filter="news" style="display: none;">
+                        <article class="company-project-card-inner glass-panel interactive-card">
+                            <div class="card-glow"></div>
+                            <img src="../img/Figures&3Dprinted.png" alt="" class="company-project-card-img">
+                            <div class="company-project-card-body">
+                                <span class="company-project-card-tag">News</span>
+                                <h3>ذكاء اصطناعي على الحافة للمصانع الصغيرة: واقع أم تسويق؟</h3>
+                                <span class="company-project-card-cta">عرض التفاصيل <i class="fa-solid fa-arrow-left"></i></span>
+                            </div>
+                        </article>
+                    </a>
+                    <!-- GENERATED-CARDS-END -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h2 class="logo-text">MIKAVERSE</h2>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/mikaversetech/" class="glass-icon"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61573310069270&sk=directory_intro"
+                    class="glass-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://youtube.com/@mikaversetech" class="glass-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Mikaverse. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

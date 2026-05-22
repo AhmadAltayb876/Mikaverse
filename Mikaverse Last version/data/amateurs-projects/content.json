@@ -1,0 +1,134 @@
+{
+  "page": {
+    "title": "مشاريع الهواة | Mikaverse",
+    "heading": "مشاريع",
+    "headingAccent": "الهواة",
+    "lead": "مشاريع ميكاترونية للهواة والمبتدئين — تصفّح حسب المجال وافتح كل مشروع للتفاصيل الكاملة.",
+    "sectionId": "electronics-projects",
+    "metaDescription": "مشاريع Mikaverse للهواة: إلكترونيات، روبوتات، وصناعة منزلية مع شروحات خطوة بخطوة.",
+    "backLinkLabel": "العودة لمشاريع الهواة",
+    "filtersLabel": "تصفية حسب المجال"
+  },
+  "sectionTemplate": [
+    { "id": "overview", "subtitle": "نظرة عامة" },
+    { "id": "challenge", "subtitle": "التحدي" },
+    { "id": "solution", "subtitle": "الحل المقدم" },
+    { "id": "technologies", "subtitle": "التقنيات المستخدمة" },
+    { "id": "results", "subtitle": "النتائج والفوائد" }
+  ],
+  "filters": [
+    { "id": "electronics", "label": "إلكترونيات" },
+    { "id": "robotics", "label": "روبوتات" },
+    { "id": "makers", "label": "صناعة منزلية" }
+  ],
+  "cards": [
+    {
+      "slug": "smart-plant-monitor",
+      "filter": "electronics",
+      "title": "مراقب رطوبة وتربة للنباتات المنزلية مع تنبيهات واتساب",
+      "image": "../img/IT-Projects.png",
+      "tag": "Electronics",
+      "detail": {
+        "metaDescription": "مراقب نباتات ذكي للهواة — مشروع Mikaverse.",
+        "lead": "حساسات رطوبة وإضاءة مع لوحة تحكم بسيطة.",
+        "sections": {
+          "overview": "مشروع منزلي يربط حساس رطوبة التربة وDS18B20 بلوحة ESP32.",
+          "challenge": "المستخدم ينسى الري وتذبل النباتات أثناء السفر.",
+          "solution": "عتبات قابلة للضبط وتنبيه واتساب عبر API مجاني.",
+          "technologies": "ESP32، MQTT، شاشة OLED، ومضخة مياه 5V.",
+          "results": "lorem ipsum ldkutyrys,.dl,yktrxocuyikthrg"
+        }
+      }
+    },
+    {
+      "slug": "home-energy-meter",
+      "filter": "electronics",
+      "title": "عداد طاقة منزلي لمراقبة استهلاك الأجهزة الكبرى",
+      "image": "../img/DIY-Projects.png",
+      "tag": "Electronics",
+      "detail": {
+        "metaDescription": "عداد طاقة DIY — مشروع هواة Mikaverse.",
+        "lead": "قياس استهلاك الثلاجة والمكيف بشكل منفصل.",
+        "sections": {
+          "overview": "مشروع تعليمي يوضح فرق الاستهلاك الفعلي عن التقديرات على الفاتورة.",
+          "challenge": "عدم معرفة أي جهاز يسبب قفزات الفاتورة الشهرية.",
+          "solution": "مشابك CT رخيصة مع معايرة برمجية ولوحة ويب محلية.",
+          "technologies": "ESP8266، PZEM-004T، InfluxDB محلي، Grafana.",
+          "results": "اكتشاف جهاز يعمل 24/7 باستهلاك وهمي 80 واط."
+        }
+      }
+    },
+    {
+      "slug": "line-follower-robot",
+      "filter": "robotics",
+      "title": "روبوت متتبع خط قابل للبرمجة من الهاتف",
+      "image": "../img/DIY-Projects.png",
+      "tag": "Robotics",
+      "detail": {
+        "metaDescription": "روبوت متتبع خط للهواة — Mikaverse.",
+        "lead": "منصة تعليمية للمدارس والأندية العلمية.",
+        "sections": {
+          "overview": "هيكل 3D مطبوع مع حساسات IR وتحكم PID قابل للضبط من تطبيق بسيط.",
+          "challenge": "صعوبة ضبط PID للمبتدئين دون أدوات قياس.",
+          "solution": "وضع تعليمي يعرض منحنى الخطأ ويقترح قيم بداية.",
+          "technologies": "Arduino Nano، Bluetooth، حساسات QTR-8RC.",
+          "results": "إنهاء مسار 3 متر في 18 ثانية بعد جولتين معايرة."
+        }
+      }
+    },
+    {
+      "slug": "arm-pick-place-kit",
+      "filter": "robotics",
+      "title": "ذراع روبوتية تعليمية للالتقاط والوضع بتحكم يدوي ولاسلكي",
+      "image": "../img/3D-Projects.png",
+      "tag": "Robotics",
+      "detail": {
+        "metaDescription": "ذراع روبوتية تعليمية — مشروع هواة.",
+        "lead": "تعلم الحركات العكسية والتحكم بالسيرفوهات.",
+        "sections": {
+          "overview": "عدة تجميع مع 4 درجات حرية ومشغل قبضة للمختبر المنزلي.",
+          "challenge": "اهتزاز الذراع عند حمل أوزان فوق 100 غرام.",
+          "solution": "تخفيف وزن الهيكل وإضافة حدود برمجية للعزم.",
+          "technologies": "سيرفوهات معدّلة، لوحة تحكم، تطبيق جوال بسيط.",
+          "results": "التقاط مكعبات 3 سم بثبات بعد معايرة يدوية واحدة."
+        }
+      }
+    },
+    {
+      "slug": "cnc-enclosure-diy",
+      "filter": "makers",
+      "title": "غلاف عزل وشفط غبار لماكينة CNC منزلية الصنع",
+      "image": "../img/CNCIcon.png",
+      "tag": "Makers",
+      "detail": {
+        "metaDescription": "غلاف CNC منزلي — مشروع صناعة Mikaverse.",
+        "lead": "تحسين السلامة وتقليل الغبار في الورشة المنزلية.",
+        "sections": {
+          "overview": "تصميم غلاف من ألواح MDF مع باب زجاجي وشفاط 12V.",
+          "challenge": "انتشار غبار الخشب في غرفة المعيشة المجاورة.",
+          "solution": "مسارات هواء محسوبة وفلتر قماش قابل للغسل.",
+          "technologies": "Fusion 360، مفاتيح مغناطيسية، مروحة صامتة.",
+          "results": "انخفاض الغبار المرئي بنسبة كبيرة في قياس بسيط بكاميرا ثابتة."
+        }
+      }
+    },
+    {
+      "slug": "parametric-box-generator",
+      "filter": "makers",
+      "title": "مولّد صناديق parametric للطباعة ثلاثية الأبعاد مع مفاصل حية",
+      "image": "../img/Figures&3Dprinted.png",
+      "tag": "Makers",
+      "detail": {
+        "metaDescription": "مولّد صناديق 3D — مشروع هواة.",
+        "lead": "أداة ويب بسيطة تخرج STL جاهز للطباعة.",
+        "sections": {
+          "overview": "مشروع مفتوح المصدر يولّد أبعاد الصندوق والمفصل حسب المدخلات.",
+          "challenge": "تعديل ملفات OpenSCAD يخيف المستخدمين الجدد.",
+          "solution": "واجهة عربية بثلاث حقول رئيسية ومعاينة SVG.",
+          "technologies": "OpenSCAD، Node.js، طباعة PLA.",
+          "results": "أكثر من 40 صندوقاً مطبوعاً من المجتمع المحلي في شهرين."
+        }
+      }
+    }
+  ]
+}
