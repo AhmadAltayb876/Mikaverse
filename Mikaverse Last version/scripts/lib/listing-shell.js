@@ -2,6 +2,8 @@
  * Builds listing page HTML shell (same structure as companies-projects.html).
  */
 
+const { WHATSAPP_FAB } = require("./snippets");
+
 function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
@@ -59,6 +61,7 @@ function buildListingShell(page) {
             <button class="mobile-toggle" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
         </div>
     </header>
+${WHATSAPP_FAB}
     <main style="flex: 1; display: flex; flex-direction: column;">
         <section id="${sectionId}" class="section-padding companies-hero">
             <div class="container">

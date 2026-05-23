@@ -4,6 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { WHATSAPP_FAB_SIDEBAR } = require("./snippets");
 
 const ROOT = path.join(__dirname, "..", "..");
 
@@ -111,6 +112,7 @@ function buildDetailPage(card, sectionTemplate, sectionKey, page) {
 ${buildSidebarNav(sectionTemplate)}
                 </ul>
             </nav>
+${WHATSAPP_FAB_SIDEBAR}
         </aside>
         <div class="project-detail-page-column">
             <div class="project-detail-container">

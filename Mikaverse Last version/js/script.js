@@ -305,7 +305,7 @@ function initProjectDetailToc() {
   if (!layout) return;
 
   const links = layout.querySelectorAll(
-    ".project-sidebar-link, .project-toc-link",
+    ".project-sidebar-link",
   );
   const sections = document.querySelectorAll(".project-detail-section");
   if (!links.length || !sections.length) return;
