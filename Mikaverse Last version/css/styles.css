@@ -322,6 +322,10 @@
   min-height: 280px;
   position: relative;
   border: 1px solid var(--glass-border);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .alt-card-body {
@@ -514,10 +518,33 @@
 }
 
 .alt-card:hover .alt-card-inner {
+  transform: translateY(-6px);
   border-color: rgba(54, 162, 255, 0.45);
   box-shadow:
     0 20px 50px rgba(0, 0, 0, 0.35),
     0 0 0 1px rgba(54, 162, 255, 0.15);
+}
+
+/* Printing service & category cards — light hover (no cursor-tracking tilt) */
+.printing-page .alt-card:hover .alt-card-media img {
+  transform: scale(1.04);
+}
+.printing-page .alt-card-media img {
+  transition: transform 0.35s ease;
+}
+.printing-page .mini-card .card-glow {
+  display: none;
+}
+.printing-page .mini-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(54, 162, 255, 0.4);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+}
+.printing-page .mini-card:hover img {
+  transform: scale(1.04);
+}
+.printing-page .mini-card img {
+  transition: transform 0.35s ease;
 }
 
 .alt-card--proto .alt-card-icon {
